@@ -1,9 +1,10 @@
 import React from 'react'
+import '../home/home.css'
 
 const Home = () => {
   return (
-    <div>
-      <form>
+    <div className='form-container'>
+      <form className='form'>
         <label htmlFor='username'>Username</label>
         <input type='text' id='username' name='username' />
 
